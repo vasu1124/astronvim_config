@@ -6,7 +6,8 @@ return {
       "lua",
       "go",
       "gomod",
-      "gosum"
+      "gosum",
+      "nix"
     })
   end,
 }

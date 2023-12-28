@@ -9,16 +9,16 @@ return {
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
         "lua_ls",
         "gopls",
-        "marksman",
-        "bashls",
-        "dockerls",
+        --"marksman",
+        -- "bashls",
+        -- "dockerls",
         "html",
         -- "java_language_server",
-        "tsserver",
+        -- "tsserver",
         -- "rnix",
-        "spectral",
-        "terraformls",
-        "vuels",
+        -- "spectral",
+        -- "terraformls",
+        -- "vuels",
       })
     end,
   },
@@ -54,7 +54,7 @@ return {
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
         -- "python",
         "delve",
-        "javadbg",
+        -- "javadbg",
       })
     end,
   },
